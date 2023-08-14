@@ -1,8 +1,17 @@
 import java.util.Scanner;
-
+/**
+ * Universidad del Valle de Guatemala
+ * @author Angie Nadissa Vela López, 23764
+ * @description Clase principal para interactuar con el usuario
+ * @date creación 14/08/2023 última modificación 14/08/23
+ */
 public class Principal {
     
 
+    /**
+     * Menú principaldel programa, aca esta toda la interfaz para 
+     * interactuar con el usuario
+     */
     public static void menu(){
         Scanner teclado = new Scanner(System.in);
         ErasTour erasTour = new ErasTour();
